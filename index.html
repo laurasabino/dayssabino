@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    
+        <title>Hair Salon Website</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+ <!-- font type and menu btns -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@500&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/196bbfae17.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+    <section class="header">
+     <nav> 
+
+
+  <!-- menu -->
+
+
+        <a href="index.html"><img src="images/logo.png"></a>
+        
+            <div class="menu-links" id="menuLinks">
+                    
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a></li>
+                    <li>
+                        <a href="services.html">Services</a></li>
+                    <li>
+                        <a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+                <i class="fas fa-ellipsis-v" onclick="showMenu()"></i>
+    </nav>
+
+
+  <!-- Head -->
+
+
+        <img src="images/background.png">
+        <div class="text-box">
+            <h1>The best of the Brazilian beauty in Canada!</h1>
+            <br><br>
+
+            <a href="" class="cta-btn">Book now!</a>
+
+        </div>
+
+    </section>
+
+
+
+    <!------------- SERVICES BLOCK ------------>
+
+    <section class="services">
+
+        <h1>Most popular services!</h1>
+        <br><br>
+        <div class="row">
+            <div class="services-col">
+                <img src="images/brazilianwax.png">
+                 <h3>Brazilian Wax</h3>
+                 <p>A good wax can make your skin glow with radiance while feeling smooth, fresh and clean, keeping that unwanted body hair away for as long as 6 weeks.</p>
+             </div>
+ 
+             <div class="services-col">
+                 <img src="images/tanning.png">
+                 <h3>Tanning</h3>
+                 <p>The Brazilian tanning system uses a selected blend of national oils to reach better results faster and safer.</p>
+             </div>
+ 
+             <div class="services-col">
+                 <img src="images/massage.png">
+                 <h3>Lynphatic Massage</h3>
+                 <p>The Brazilian Lymphatic massage is focused on stimulating the natural drainage of the lympth nodes, in order to eliminate waste and toxins from the body. </p>
+             </div>
+
+    
+        </div>
+        
+    </section>
+
+    <!---      ABOUT     --->
+
+    <section class="about">
+
+    <div class="row">
+       
+        <div class="about-col">
+       
+            <h1>MeetDays Lucia Sabino!</h1>
+            <p>Days Lucia Sabino came to Canada along with her daughter, Laura Sabino. 
+                Together, they are passionate about beauty and wellness.<br>
+                Lucia completed more than four certified beauty courses related to hair and facial care during her life.
+                Once she reached Canada, Lucia missed how Brazilian beauty spas are welcoming and dedicated to making their customers happy and decided to create her own space to bring Canada the best practices of her home country. </p>
+
+        </div>
+      
+        <div class="about-col">
+        <img src="images/laura.jpg">
+        </div>
+    
+    </div>
+
+
+</section>
+
+ <!--- testimonials ----->
+
+<section class="testimonial">
+    <h1>Testimonials</h1>
+<br>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/test2.png">
+            <div>
+                <p>They have the best service in Vancouver area, the girls are so kind and patience!</p>
+                <h3>Maria</h3>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="images/test3.png">
+            <div>
+                <p>Days Sabino and Laura were amazing with me, the place has a really calming enviroment. I'm definetly coming back soon!</p>
+                <h3>Britney</h3>
+            </div>
+
+        
+                </div>
+
+        </div>
+    </div>
+
+
+</section>
+
+
+<!----- CTA section ------>
+
+<section class="cta">
+
+    <h1>Rise your beauty with the best of the South America!</h1>
+    <a href=""class="cta-btn">CONTACT US</a>
+
+</section>
+
+<!------ FOOTER ------->
+<section class="footer">
+    <h4>Keep in touch</h4>
+
+    <div class="icons">
+
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-linkedin"></i>
+
+    </div>
+    <p>Made with love by Laura Sabino</p>
+    
+</section>
+
+
+  <!--- JavaScript for the mobile menu --->
+
+
+<script>
+
+    var menuLinks = document.getElementById("menuLinks")
+    function showMenu(){
+        menuLinks.style.right = "0";
+    }
+
+    var menuLinks = document.getElementById("menuLinks")
+    function hideMenu(){
+        menuLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+</body>
+</html>

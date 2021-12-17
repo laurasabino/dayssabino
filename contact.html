@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    
+        <title>Hair Salon Website</title>
+
+    <link rel="stylesheet" href="css/contact-style.css">
+
+ <!-- font type and menu btns -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@500&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/196bbfae17.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+    <section class="header">
+     <nav> 
+
+
+  <!-- menu -->
+
+
+        <a href="index.html"><img src="images/logo.png"></a>
+        
+            <div class="menu-links" id="menuLinks">
+                    
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a></li>
+                    <li>
+                        <a href="services.html">Services</a></li>
+                    <li>
+                        <a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+                <i class="fas fa-ellipsis-v" onclick="showMenu()"></i>
+    </nav>
+
+ <!-- Head -->
+
+
+ <img src="images/background.png">
+ <div class="text-box">
+     <h1>Contact us to book your appoitment!</h1>
+     <br><br>
+
+ </div>
+
+</section>
+<!------- CONTACT ------>
+
+<section class="contact-us">
+    <div class="contact-col">
+        <div>
+             <i class="fa fa-home"></i>
+                 <span>
+                     <h5>816 Granville St, Vancouver, BC V6Z 1K3</h5>
+                 </span>
+        </div>
+        <div>
+           <i class="fa fa-phone"></i>
+                 <span>
+                     <h5>+1 604 000-0000</h5>
+                     <p>Monday to Saturday, 9AM to 7PM</p>
+                 </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                 <span>
+                     <h5>laurasabino.dms@gmail.com</h5>
+                 </span>
+        </div>
+    </div>
+</section>
+
+<!-- MAP -->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.7585343128912!2d-123.1199266!3d49.2809725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548671821c149771%3A0xd64c377f2df4b19f!2sCornerstone%20International%20Community%20College%20of%20Canada%20-%20Tech%20Campus!5e0!3m2!1sen!2sca!4v1639675445256!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+
+</section>
+
+
+
+
+
+    <!------ FOOTER ------->
+<section class="footer">
+    <h4>Keep in touch</h4>
+
+    <div class="icons">
+
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-linkedin"></i>
+
+    </div>
+    <p>Made with love by Laura Sabino</p>
+    
+</section>
+
+
+  <!--- JavaScript for the mobile menu --->
+
+
+<script>
+
+    var menuLinks = document.getElementById("menuLinks")
+    function showMenu(){
+        menuLinks.style.right = "0";
+    }
+
+    var menuLinks = document.getElementById("menuLinks")
+    function hideMenu(){
+        menuLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+</body>
+</html>
+

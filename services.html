@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    
+        <title>Hair Salon Website</title>
+
+    <link rel="stylesheet" href="css/style-services.css">
+
+ <!-- font type and menu btns -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@500&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/196bbfae17.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+    <section class="header">
+     <nav> 
+
+
+  <!--------------- MENU ------------->
+
+
+        <a href="index.html"><img src="images/logo.png"></a>
+        
+            <div class="menu-links" id="menuLinks">
+                    
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                     <li>
+                        <a href="index.html">Home</a></li>
+                    <li>
+                        <a href="services.html">Services</a></li>
+                    <li>
+                        <a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+                <i class="fas fa-ellipsis-v" onclick="showMenu()"></i>
+    </nav>
+
+
+    <!------------- FAVORITE SERVICES ------------>
+
+    <section class="services">
+
+        <h1>Most popular services!</h1>
+        <br><br>
+        <div class="row">
+            <div class="services-col">
+               <img src="images/brazilianwax.png">
+                <h3>Brazilian Wax</h3>
+                <p>A good wax can make your skin glow with radiance while feeling smooth, fresh and clean, keeping that unwanted body hair away for as long as 6 weeks.</p>
+            </div>
+
+            <div class="services-col">
+                <img src="images/tanning.png">
+                <h3>Tanning</h3>
+                <p>The Brazilian tanning system uses a selected blend of national oils to reach better results faster and safer.</p>
+            </div>
+
+            <div class="services-col">
+                <img src="images/massage.png">
+                <h3>Lynphatic Massage</h3>
+                <p>The Brazilian Lymphatic massage is focused on stimulating the natural drainage of the lympth nodes, in order to eliminate waste and toxins from the body. </p>
+            </div>
+
+    
+        </div>
+        
+    </section>
+
+<!------------- Other services----------->
+
+    <section class="other">
+        <h1>Meet our other services!</h1>
+        <h5>Contact us for more informations</h5>
+
+        <div class="hair">
+            <h2>Hair Care Services</h2>
+            <hr>
+            <h3>Haircut </h3>
+            <p>Feminine and masculine haircuts.<br>Please, contact us for prices! </p>
+
+            <h3>Hair styling</h3>
+            <p>Formal and casual events.<br> Please, contact us for prices!</p>
+
+            <h3>Treatment</h3>
+            <p>Give to your hair the best treatment based on brazilian indigenous haircare routine. <br>Please, contact us for prices!</p>
+
+        </div>
+
+        <div class="face">
+            <h2>Face Care Services</h2>
+            <hr>
+            <h3>Make-up</h3>
+            <p> Formal and casual events.<br> Please, contact us for prices!</p>
+
+            <h3>Hydrofacial</h3>
+            <p> Give to your face skin the best practice of a full skin care treatment. <br> Please, contact us for prices!</p>
+
+            <h3>Eye-brows shaping</h3>
+            <p> Wax and tint your eye-brows for a better face visual. <br> Please, contact us for prices!</p>
+
+        </div>
+        <div class="body">
+            <h2>Body Care Services</h2>
+            <hr>
+            <h3>Calming massage</h3>
+            <p> Combining relaxation and chromotherapy, you will end the session feeling revitalized. <br> Please, contact us for prices!</p>
+
+            <h3>Leg waxing</h3>
+            <p> Half leg or Full leg, including toes. <br> Please, contact us for prices!</p>
+
+
+        </div>
+        <div class="nail">
+            <h2>Nail Care Services</h2>
+            <hr>
+            <h3>Brazilian manicure</h3>
+            <p> Nail shaping, soak, cuticle removal, buff, relaxing hand massage and police of your choice. <br> Please, contact us for prices!</p>
+
+            <h3>Pedicure</h3>
+            <p> Nail shaping, soak, cuticle removal, buff, relaxing hand massage and police of your choice. <br> Please, contact us for prices!</p>
+
+            <h3>Hardgel extensions</h3>
+            <p> Nail shaping, soak, cuticle removal, buff, relaxing hand massage, hard gel extensions and police of your choice. <br> Please, contact us for prices!</p>
+
+        </div>
+
+
+        </div>
+
+    </section>
+
+
+
+
+</section>
+
+<!------ FOOTER ------->
+<section class="footer">
+    <h4>Keep in touch</h4>
+
+    <div class="icons">
+
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-linkedin"></i>
+
+    </div>
+    <p>Made with love by Laura Sabino</p>
+    
+</section>
+
+
+  <!--- JavaScript for the mobile menu --->
+
+
+<script>
+
+    var menuLinks = document.getElementById("menuLinks")
+    function showMenu(){
+        menuLinks.style.right = "0";
+    }
+
+    var menuLinks = document.getElementById("menuLinks")
+    function hideMenu(){
+        menuLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+</body>
+</html>
